@@ -1,0 +1,50 @@
+# Local agent and machine-specific files
+AGENTS.md
+.env
+.env.*
+tmp/
+paper/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Generated experiment artifacts
+aligner_checkpoints/
+analysis/
+evaluation_results/
+aligning_results/
+representations/
+weight_representations/
+captioned_images/
+fewshot_images/
+plots/
+results/
+mlp_img_aligner_*.json
+*.out
+slurm-*.out
+slurm_out/
+
+# Large data/model artifacts
+weights/
+data/embeddings/
+data/coco/
+data/flickr30k/
+data/imagenet1k/val/
+data/*-c/
+data/*.tar
+data/*.zip
+data/*.pth
+data/*.pt
+data/*.npy
+data/*.npz
+
+# OS/editor
+.DS_Store
+*.swp
+*.swo
